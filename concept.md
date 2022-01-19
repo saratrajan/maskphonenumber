@@ -22,7 +22,7 @@ When a match is found for the regex, then replace that with asterisks(*)
 Save the file
 
 
-
+```python
 Class FindPhoneNumbers(object):
 
     regex_phone = “ddd-ddd-dddd”
@@ -74,6 +74,6 @@ Class FindPhoneNumbers(object):
        validate_path(path)
        files = get_all_files(path)
        parseFile(files)
-
+```
 
 
