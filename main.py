@@ -40,7 +40,7 @@ Input: Filename to be tweaked after scanning for phone numbers available
 def tweak_files(filename):
      with open(path + filename, 'r+') as f:
           content = f.read()
-          f.seek(0)
+          f.seek(0) ## Set pointer to the beginning of file before replacing
           f.write(replace_phonenumber(content))
           f.truncate()
 
