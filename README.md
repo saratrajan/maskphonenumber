@@ -17,3 +17,7 @@ Currently target root folder is set as `files/` and it has two files within as b
 ## Output
 
 It replaces identified phone numbers with asterisks at the end of execution.
+
+## Execution
+
+Clone the repo and change directory to root of repo before running `python main.py`
