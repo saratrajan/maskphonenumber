@@ -51,9 +51,9 @@ Input: Path of the root folder where files are to be scanned and tweaked
 '''
 def main(path):
      try:
-          validate_path(path)
-          files = get_all_files(path)
-          for each in files:
+          validate_path(path) ## Validating the root folder path
+          files = get_all_files(path) ## Storing all files inside the root folder
+          for each in files: ## Tweaking all files for phone numbers found
                tweak_files(each)
           status = True     
      except:
